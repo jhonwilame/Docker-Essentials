@@ -32,17 +32,28 @@ Construa a imagem Docker:
 <!-- end list -->
 
 Bash
-
+<pre>
+  <code>
 docker build -t minha-pagina-web .
+  </code>
+</pre>
+
 Este comando irá construir uma imagem Docker com o nome minha-pagina-web utilizando o arquivo Dockerfile no diretório atual.
 
 Execute o contêiner Docker:
 <!-- end list -->
 
 Bash
-
+<pre>
+  <code>
+    
 docker run -d -p 8082:80 minha-pagina-web
+    
+ </code>
+</pre>
+
 Este comando irá executar um contêiner Docker com a imagem minha-pagina-web em segundo plano (-d) e mapear a porta 8082 da sua máquina para a porta 80 do contêiner.
+
 
 Acesse a sua página web:
 Abra um navegador web e acesse http://localhost:8082/html. Você deverá ver a sua página web "Rocket Access" exibida no navegador.
