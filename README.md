@@ -39,7 +39,7 @@ docker run -d -p 8082:80
 Este comando irá executar um contêiner Docker com a imagem minha-pagina-web e mapear a porta 8082 do contêiner para a porta 80 da sua máquina.
 
 Acesse a sua página web:
-Abra um navegador web e acesse http://localhost. Você deverá ver a sua página web "Rocket Access" exibida no navegador.
+Abra um navegador web e acesse http://localhost/html. Você deverá ver a sua página web "Rocket Access" exibida no navegador.
 
 ![Screenshot from 2025-02-10 23-03-59](https://github.com/user-attachments/assets/986a828d-edad-4c9b-ba8d-14292afedc58)
 
