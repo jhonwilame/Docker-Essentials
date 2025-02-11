@@ -116,6 +116,4 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar pull req
 
 Licença
 
-Este projeto está sob a licença MIT.
-
-Espero que esta versão revisada do seu README seja mais útil e informativa para outros desenvolvedores que desejam utilizar seu projeto. Se tiver alguma dúvida ou precisar de ajuda adicional, não hesite em perguntar!
+Este projeto está sob a licença Jhon Wilame.
