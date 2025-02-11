@@ -88,19 +88,22 @@ Dockerfile
 
 Dockerfile
 
-FROM nginx:latest
+<pre>
+  <code> 
+    
+FROM nginx
+COPY hello.html /usr/share/nginx/html
+ </code>
+</pre>
 
-COPY index.html /var/www/html
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-nginx.conf
 
 Nginx
 
 server {
-    listen 80;
-    server_name localhost;
-    root /var/www/html;
+    listen 8082:80
+    server_name localhost:8082:80/html
+  
 }
 Observações
 
