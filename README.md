@@ -100,11 +100,10 @@ COPY hello.html /usr/share/nginx/html
 
 Nginx
 
-server {
+server 
     listen 8082:80
     server_name localhost:8082:80/html
   
-}
 
 
 
