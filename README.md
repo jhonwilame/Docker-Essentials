@@ -58,7 +58,6 @@ HTML
     <title>Minha Página Web com Nginx e Docker</title>
 </head>
 <body>
-    
     <h1>Rocket Access Docker</h1>
     <p>Esta é a minha página web hospedada com Nginx e Docker.</p>
 </body>
