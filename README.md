@@ -56,7 +56,7 @@ Este comando irá executar um contêiner Docker com a imagem minha-pagina-web em
 
 
 Acesse a sua página web:
-Abra um navegador web e acesse http://localhost:8082/html. Você deverá ver a sua página web "Rocket Access" exibida no navegador.
+Abra um navegador web e acesse http://localhost:8082/hello.html Você deverá ver a sua página web "Rocket Access" exibida no navegador.
 
 
 ![Screenshot from 2025-02-10 23-03-59](https://github.com/user-attachments/assets/986a828d-edad-4c9b-ba8d-14292afedc58)
@@ -102,7 +102,7 @@ Nginx
 
 server 
     listen 8082:80
-    server_name localhost:8082:80/html
+    server_name http://localhost:8082/hello.html
   
 
 
