@@ -2,8 +2,6 @@
 Criacao de uma pagina web com imagem nginx rodando no Docker 
 
 
-![Screenshot from 2025-02-10 23-03-59](https://github.com/user-attachments/assets/986a828d-edad-4c9b-ba8d-14292afedc58)
-
 
 
 Este arquivo README.md fornece instruções detalhadas sobre como configurar e executar uma página web simples utilizando o Nginx dentro de um contêiner Docker.
@@ -37,11 +35,13 @@ Execute o contêiner Docker:
 
 Bash
 
-docker run -p 80:80 minha-pagina-web
-Este comando irá executar um contêiner Docker com a imagem minha-pagina-web e mapear a porta 80 do contêiner para a porta 80 da sua máquina.
+docker run -d -p 8082:80
+Este comando irá executar um contêiner Docker com a imagem minha-pagina-web e mapear a porta 8082 do contêiner para a porta 80 da sua máquina.
 
 Acesse a sua página web:
-Abra um navegador web e acesse http://localhost. Você deverá ver a sua página web "Olá, Mundo!" exibida no navegador.
+Abra um navegador web e acesse http://localhost. Você deverá ver a sua página web "Rocket Access" exibida no navegador.
+
+![Screenshot from 2025-02-10 23-03-59](https://github.com/user-attachments/assets/986a828d-edad-4c9b-ba8d-14292afedc58)
 
 Conteúdo do repositório
 index.html: O arquivo HTML da sua página web.
@@ -65,9 +65,8 @@ HTML
 Dockerfile
 Dockerfile
 
-FROM nginx:latest
-
-COPY index.html /var/www/html
+FROM nginx
+COPY hello.html /usr/share/nginx/html
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 nginx.conf
@@ -82,7 +81,7 @@ Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e correções.
 
 Licença
-Este projeto está sob a licença MIT.
+Este projeto está sob a licença Jhon Wilame.
 
 Recursos adicionais
 Documentação do Docker
