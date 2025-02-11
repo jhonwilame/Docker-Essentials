@@ -15,7 +15,11 @@ Clone este repositório:
 
 Bash
 
-git clone git@github.com:jhonwilame/Docker-Essentials.git
+<pre>
+  <code>
+    git clone git@github.com:jhonwilame/Docker-Essentials.git
+  </code>
+</pre>
 
 
 Navegue até o diretório do projeto:
