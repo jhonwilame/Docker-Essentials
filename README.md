@@ -15,7 +15,7 @@ Clone este repositório:
 
 Bash
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone git@github.com:jhonwilame/Docker-Essentials.git
 Navegue até o diretório do projeto:
 <!-- end list -->
 
@@ -58,7 +58,8 @@ HTML
     <title>Minha Página Web com Nginx e Docker</title>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    
+    <h1>Rocket Access Docker</h1>
     <p>Esta é a minha página web hospedada com Nginx e Docker.</p>
 </body>
 </html>
@@ -77,6 +78,8 @@ server {
     server_name localhost;
     root /var/www/html;
 }
+
+
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e correções.
 
