@@ -105,6 +105,9 @@ server {
     server_name localhost:8082:80/html
   
 }
+
+
+
 Observações
 
 Certifique-se de que o arquivo index.html esteja no diretório do projeto antes de construir a imagem Docker.
